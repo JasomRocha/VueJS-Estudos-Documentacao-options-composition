@@ -1,5 +1,7 @@
 <script setup>
 import VPre from "./components/Directives/VPre.vue";
+import VOnce from "./components/Directives/VOnce.vue";
+import VMemo from "./components/Directives/VMemo.vue";
 </script>
 <template>
 <!--  <options-api />-->
@@ -30,5 +32,8 @@ import VPre from "./components/Directives/VPre.vue";
 
 <!--</template>-->
 
-  <VPre />
+<!--  <VPre />-->
+
+  <VOnce />
+  <VMemo />
 </template>
